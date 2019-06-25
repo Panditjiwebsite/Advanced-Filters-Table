@@ -567,7 +567,17 @@
     <script>
         $(document).ready(function() {
             $('#example').DataTable();
-        } );
+            } );
+
+            var pass1 = '123';
+            password=prompt('Please enter password to view page')
+            if (password==pass1){
+                window.location.href="https://panditjiwebsite.github.io/Advanced-Filters-Table/index.html";
+            }
+            else{
+                window.location.href="https://panditjiwebsite.github.io/Advanced-Filters-Table/wrong.html";
+            }
+   
     </script>
 </body>
 </html>
